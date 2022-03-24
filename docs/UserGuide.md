@@ -5,8 +5,8 @@ title: User Guide
 
 **HackNet** is a desktop application used for people to manage contact details of potential team members to work on a technical project or hackathon with. It has a simple Graphical User Interface (GUI) which displays details of your potential teammates, and works mainly via a Command Line Interface (GUI) through text commands.
 
-* Quick Start
-* Features
+* [Quick Start](#quick-start)
+* [Features](#features)
   * Viewing help: help
   * Adding a person: add
     * Name
