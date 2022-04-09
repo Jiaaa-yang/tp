@@ -47,8 +47,8 @@ public class CommandBox extends UiPart<Region> {
         }
         this.userInputHistory.add(commandText);
         try {
-            commandTextField.setText("");
             commandExecutor.execute(commandText);
+            commandTextField.setText("");
         } catch (CommandException | ParseException e) {
             setStyleToIndicateCommandFailure();
         }
